@@ -1,0 +1,28 @@
+@import './index.scss';
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.grow {
+	flex: 1 1 0;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.test {
+	border: solid tomato 1px;
+}
+
+.is-grey {
+	background-color: $grey;
+}

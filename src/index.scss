@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+$red: #cc2121;
+$orange: #ff5533;
+$yellow: #ffcc00;
+$green: #4a7c49;
+$turquoise: #008899;
+$cyan: #b0e0e6;
+$blue: #004d99;
+$purple: #4e1e3e;
+$amber: #ffa000;
+$amber-dark: #ff6f00;
+$deep-orange: #d84315;
+$deep-orange-light: #ff7543;
+$shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+	0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+$family-serif: 'Zilla Slab', sans-serif;
+
+$primary: $cyan;
+$warning: $amber;
+$info: $grey;
+$radius-small: 0;
+$radius: 0;
+$radius-large: 0;
+$family-sans-serif: 'Karla', sans-serif;
+$family-secondary: $family-serif;
+
+$card-header-shadow: none;
+$card-header-weight: $weight-normal;
+$card-shadow: $shadow;
+$card-background-color: $white-ter;
+$button-color: $black-ter;
+
+@import '~bulma/bulma';

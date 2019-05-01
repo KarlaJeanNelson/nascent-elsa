@@ -2,10 +2,25 @@
   "name": "new-lion",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "typeface-karla": "^0.0.72",
+    "typeface-roboto": "^0.0.54",
+    "typeface-special-elite": "^0.0.72",
+    "typeface-zilla-slab": "^0.0.72"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "1.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,9 +28,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+  "lint-staged": {
+		"src/**/*.{js,json,css,md}": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
   "browserslist": {
     "production": [
       ">0.2%",
