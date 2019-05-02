@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './node_modules/typeface-roboto';
-import './node_modules/typeface-karla';
+import 'typeface-roboto';
+import 'typeface-karla';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
