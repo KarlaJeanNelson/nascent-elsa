@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nascent-elsa/static/css/main.a461fcb1.chunk.css",
+    "main.js": "/nascent-elsa/static/js/main.6510cf75.chunk.js",
+    "main.js.map": "/nascent-elsa/static/js/main.6510cf75.chunk.js.map",
+    "runtime~main.js": "/nascent-elsa/static/js/runtime~main.7e1019a7.js",
+    "runtime~main.js.map": "/nascent-elsa/static/js/runtime~main.7e1019a7.js.map",
+    "static/css/2.2f7ffecf.chunk.css": "/nascent-elsa/static/css/2.2f7ffecf.chunk.css",
+    "static/js/2.69bfec57.chunk.js": "/nascent-elsa/static/js/2.69bfec57.chunk.js",
+    "static/js/2.69bfec57.chunk.js.map": "/nascent-elsa/static/js/2.69bfec57.chunk.js.map",
+    "index.html": "/nascent-elsa/index.html",
+    "precache-manifest.86c11c9229f891e1b141ba00f925a906.js": "/nascent-elsa/precache-manifest.86c11c9229f891e1b141ba00f925a906.js",
+    "service-worker.js": "/nascent-elsa/service-worker.js",
+    "static/css/2.2f7ffecf.chunk.css.map": "/nascent-elsa/static/css/2.2f7ffecf.chunk.css.map",
+    "static/css/main.a461fcb1.chunk.css.map": "/nascent-elsa/static/css/main.a461fcb1.chunk.css.map",
+    "static/media/index.css": "/nascent-elsa/static/media/roboto-latin-900italic.bc833e72.woff"
+  }
+}
